@@ -50,3 +50,10 @@ switch(playerColor) {
     break;
 }
 ```
+
+## larinje
+```javascript
+if (map.colors === undefined) map.colors = ['#ff0', '#0f0', '#f00'];
+    map.getPlayer().setColor(map.colors[0]);
+    map.colors.push(map.colors.shift());
+```
